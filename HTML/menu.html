@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <title>Menu</title>
+
+    <style>
+      .body {
+        overflow: auto;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .fooddropdown {
+        align-items: relative;
+        border: red;
+      }
+      .fullscreenPicture {
+        position: relative;
+        top: 6%;
+        left: 0;
+        width: 100%;
+        height: 20%;
+      }
+      #seletaMenu {
+        text-align: left;
+      }
+      #day {
+        text-align: left;
+      }
+
+      #quantity {
+        text-align: left;
+      }
+
+      .content {
+        padding: auto;
+        position: relative;
+        top: 60%;
+        left: 10%;
+        right: 10%;
+        bottom: 10%;
+        max-width: 80%;
+        margin: auto;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 40px;
+        width: 100%;
+        background-color: grey;
+        color: white;
+        text-align: center;}
+
+        #mainTitle {
+            font-size: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+        }
+
+        #secondmainTitle{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+      
+    </style>
+  </head>
+  <body class="body">
+    <div class="navbar">
+      <a class="active" href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Projects</a>
+      <a href="menu.html">Menu</a>
+    </div>
+
+    <img
+      class="fullscreenPicture"
+      src="https://i.vimeocdn.com/video/804276340-2fb4363ef4b61af5678c4e54bdb845d4ddf3ae5b03e5ee8e6d4d2ca22179d45c-d_1280"
+    />
+
+    <div class="content">
+      <h1 id="mainTitle">Lunch special</h1>
+      <h2 id="secondmainTitle">monday thru friday, 11 am ~ 3pm</h2>
+      <p id="secondmainTitle"><strong>$9.95 </strong>(plus Tax)</p>
+
+      <h1>Order Information</h1>
+      <p>Please fillup the the following formular. For a good expirance</p>
+      <form target="" autocomplete="on">
+        <div>
+          <label for="fname">First name</label>
+          <input id="fname" type="text" placeholder="Fabian" />
+        </div>
+      </form>
+
+        <div>
+          <label for="lname">Last name</label>
+          <input id="lname" type="text" placeholder="Rothaus" />
+        </div>
+      </form>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="abc@gmail.com" />
+      </div>
+
+      <br />
+      <h2>Menu</h2>
+      <p>This Menucard provides you an exquisite selection of the world greates food specialitys. We cant deliver through the Interner but we can make ur Website great again.</p>
+      <br />
+      <h2>Sandwiches</h2>
+      <table style="width: 80%">
+        <tr>
+          <th id="day">Day</th>
+          <th id="seletaMenu">Select a Menu</th>
+          <th id="quantity">how many</th>
+        </tr>
+
+        <tr>
+          <td>Monday</td>
+          <td>
+            <div class="fooddropdown">
+              <label for="level"></label>
+              <select id="level" name="level">
+                <option value="0">Tomato Mozarella</option>
+                <option value="1">Chicken Salad</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div>
+              <label for="number"></label>
+              <input type="number" id="number" name="number" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Tuesday</td>
+          <td>
+            <div>
+              <label for="level"></label>
+              <select id="level" name="level">
+                <option value="0">Greek Salad</option>
+                <option value="1">Toto Wrap</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div>
+              <label for="number"></label>
+              <input type="number" id="number" name="number" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Wednesday</td>
+          <td>
+            <div>
+              <label for="level"></label>
+              <select id="level" name="level">
+                <option value="0">Carros-Ginger Humus Wrap</option>
+                <option value="1">Rpasted Turkey</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div>
+              <label for="number"></label>
+              <input type="number" id="number" name="number" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Thursday</td>
+          <td>
+            <div>
+              <label for="level"></label>
+              <select id="level" name="level">
+                <option value="0">Carros-Ginger Humus Wrap</option>
+                <option value="1">Egg Salad</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div>
+              <label for="number"></label>
+              <input type="number" id="number" name="number" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>friday</td>
+          <td>
+            <div>
+              <label for="level"></label>
+              <select id="level" name="level">
+                <option value="0">Dado Wrap</option>
+                <option value="1">Tuna Salad</option>
+              </select>
+            </div>
+          </td>
+          <td>
+            <div>
+              <label for="number"></label>
+              <input type="number" id="number" name="number" />
+            </div>
+          </td>
+        </tr>
+      </table>
+      <p style="text-align: relative; color: red">
+        75cent extra for Gluten Free Breed
+      </p>
+
+      <h2>Snacks</h2>
+      <div>
+        <label for="reason"
+          >Check witch addional snack you would like to have</label
+        >
+        <div>
+          <input type="checkbox" id="Apple" name="reason" value="community" />
+          <label for="Apple"> Apple</label><br />
+
+          <input type="checkbox" id="Banana" name="reason" value="job" />
+          <label for="Banana"> Banana</label><br />
+
+          <input
+            type="checkbox"
+            id="PotatoChips"
+            name="reason"
+            value="skills"
+          />
+          <label for="PotatoChips"> Potato Chips</label><br />
+        </div>
+      </div>
+
+      <h2>Drinks</h2>
+
+      <form action="">
+        <label for="tea"></label>
+        <select name="tea" id="tea">
+          <optgroup label="Black Tea">
+            <option value="Hot Black Tea">Hot Black Tea</option>
+            <option value="Hot Black Tea">Hot Black Tea - Decaf</option>
+            <option value="Iced Black Tea">Iced Black Tea</option>
+          </optgroup>
+          <optgroup label="Green Tea">
+            <option value="Hot Green Tea">Hot Green Tea</option>
+            <option value="Hot Green Tea">Hot Green Tea - Decaf</option>
+            <option value="Iced Green Tea">Iced Green Tea</option>
+          </optgroup>
+        </select>
+
+        <br>
+        <br>
+        <br>
+      <br>
+
+      <form target="" autocomplete="on">
+      <div>
+        <button class="resetBtn" type="reset">RESET</button>
+        <button type="submit">Place Order</button>
+      </div>
+        </form>
+        <br>
+        <br>
+        <br>
+      <div></div>
+    </div>
+    <div class="footer">Made By Me 2022</div>
+  </body>
+</html>
